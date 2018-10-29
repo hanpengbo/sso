@@ -6,8 +6,8 @@
        http://api.weibo.com/schema/motan http://api.weibo.com/schema/motan.xsd">
 
     <!-- zookeeper -->
-    <motan:registry regProtocol="zookeeper" name="registry" address="192.168.7.251,192.168.7.252,192.168.7.253:2181"/>
-    <!--<motan:registry regProtocol="zookeeper" name="registry" address="10.26.101.12:2181,10.24.196.4:2182,10.44.47.240:2183"/>-->
+    <motan:registry regProtocol="zookeeper" name="registry" address="xx"/>
+   
 
     <!-- 配置接口调用 -->
     <motan:referer id="employersService"
