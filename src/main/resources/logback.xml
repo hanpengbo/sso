@@ -51,11 +51,11 @@
     <appender name="EMAIL" class="ch.qos.logback.classic.net.SMTPAppender">
         <smtpHost>smtp.exmail.qq.com</smtpHost>
         <!--<smtpPort>25</smtpPort>-->
-        <to>hanpengbo@lvzheng.com</to>
-        <to>liaozhiyong@lvzheng.com</to>
-        <from>alarm@lvzheng.com</from>
-        <username>alarm@lvzheng.com</username>
-        <password>xiaoWEI1234</password>
+        <to>xx</to>
+        <to>xx</to>
+        <from>xx</from>
+        <username>xx</username>
+        <password>xx</password>
         <asynchronousSending>true</asynchronousSending>
         <includeCallerData>true</includeCallerData>
         <subject>登录中心运行错误</subject>
