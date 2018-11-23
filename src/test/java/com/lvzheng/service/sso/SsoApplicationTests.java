@@ -1,4 +1,4 @@
-package com.lvzheng.service.sso;
+﻿package com.lvzheng.service.sso;
 
 import com.lvzheng.service.sso.wapper.RedisWapper;
 import org.junit.Test;
@@ -18,7 +18,8 @@ public class SsoApplicationTests {
 	private RedisWapper redisWapper;
 	@Test
 	public void redisTest(){
-		redisWapper.addCache("test-001","测试redis调用");
+                                //test
+		redisWapper.addCache("test-001","测试redis调用1111");
 	}
 	@Test
 	public void redisGetValueTest(){
