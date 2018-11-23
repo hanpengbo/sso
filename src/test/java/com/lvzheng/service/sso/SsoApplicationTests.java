@@ -19,7 +19,7 @@ public class SsoApplicationTests {
 	@Test
 	public void redisTest(){
                                 //test
-		redisWapper.addCache("test-001","1111");
+		redisWapper.addCache("test-001","2222");
 	}
 	@Test
 	public void redisGetValueTest(){
